@@ -6,6 +6,7 @@ public class Main {
         task4();
         task5();
         task6();
+        task7();
     }
     public static void task1() {
         System.out.println("Задача 1");
@@ -88,5 +89,15 @@ public class Main {
         System.out.println("Вес спортзавтрака в граммах - " + weightGramm + " г");
         System.out.println("Вес спортзавтрака в кГ - " + weightKilogram + " кГ");
     }
+    public static void task7() {
+        System.out.println("Задача 7");
+        int Weight = 7;
+        float weight1 = 250 * 0.001f;
+        float weight2 = 500 * 0.001f;
+        float averageWeight = (weight1 + weight2) / 2;
+        float averageDau = Weight / averageWeight;
+        System.out.println("Среднее количество дней для похудения составляет " + averageDau);
+    }
+
 
 }
