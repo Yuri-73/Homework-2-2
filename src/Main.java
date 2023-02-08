@@ -2,6 +2,7 @@ public class Main {
     public static void main(String[] args) {
         task1();
         task2();
+        task3();
     }
     public static void task1() {
         System.out.println("Задача 1");
@@ -35,5 +36,15 @@ public class Main {
         System.out.println("Значение переменной e с типом short равно " + e);
         System.out.println("Значение переменной f с типом int равно " + f);
         System.out.println("Значение переменной g с типом byte равно " + g);
+    }
+    public static void task3() {
+        System.out.println("Задача 3");
+        int student1 = 23;
+        int student2 = 27;
+        int student3 = 30;
+        int list = 480;
+        int oneStudent;
+        oneStudent = 480 / (student1 + student2 + student3);
+        System.out.println("На каждого ученика рассчитано по " + oneStudent + " листов бумаги");
     }
 }
