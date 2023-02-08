@@ -5,6 +5,7 @@ public class Main {
         task3();
         task4();
         task5();
+        task6();
     }
     public static void task1() {
         System.out.println("Задача 1");
@@ -76,4 +77,16 @@ public class Main {
         int Brown = Class * jarBrown;
         System.out.println("В школе, где " + Class + " классов, нужно " + white + " банок белой краски и " + Brown + " банок коричневой краски");
     }
+    public static void task6() {
+        System.out.println("Задача 6");
+        int bananWeight = 5 * 80;
+        float milkWeight = 200 * 1.05f;
+        int eggWeight = 2 * 100;
+        int iceWeight = 4 * 70;
+        float weightGramm = bananWeight + milkWeight + eggWeight + iceWeight;
+        float weightKilogram = (bananWeight + milkWeight + eggWeight + iceWeight) / 1000;
+        System.out.println("Вес спортзавтрака в граммах - " + weightGramm + " г");
+        System.out.println("Вес спортзавтрака в кГ - " + weightKilogram + " кГ");
+    }
+
 }
