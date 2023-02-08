@@ -7,6 +7,7 @@ public class Main {
         task5();
         task6();
         task7();
+        task8();
     }
     public static void task1() {
         System.out.println("Задача 1");
@@ -98,6 +99,24 @@ public class Main {
         float averageDau = Weight / averageWeight;
         System.out.println("Среднее количество дней для похудения составляет " + averageDau);
     }
+    public static void task8() {
+        System.out.println("Задача 8");
+
+        int Salary1 = 67760;
+        int Salary2 = 83690;
+        int Salary3 = 76230;
+        float percent = (100 + 10) / 100f;
+        float SalarySum1 = Salary1 * percent;
+        float SalarySum2 = Salary2 * percent;
+        float SalarySum3 = Salary3 * percent;
+        float difference1 = (SalarySum1 - Salary1) * 12;
+        float difference2 = (SalarySum2 - Salary2) * 12;
+        float difference3 = (SalarySum3 - Salary3) * 12;
+        System.out.println("Маша теперь получает " + SalarySum1 + " .Годовой доход вырос на " + difference1);
+        System.out.println("Денис теперь получает " + SalarySum2 + " .Годовой доход вырос на " + difference2);
+        System.out.println("Кристина теперь получает " + SalarySum3 + " .Годовой доход вырос на " + difference3);
+    }
+
 
 
 }
