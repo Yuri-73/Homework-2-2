@@ -4,6 +4,7 @@ public class Main {
         task2();
         task3();
         task4();
+        task5();
     }
     public static void task1() {
         System.out.println("Задача 1");
@@ -64,5 +65,15 @@ public class Main {
         System.out.println("За сутки машина произвела " + botlesDau_1 + " штук бутылок");
         System.out.println("За 3 дня машина произвела " + botlesDau_2 + " штук бутылок");
         System.out.println("За месяц машина произвела " + botlesMonth + " штук бутылок");
+    }
+    public static void task5() {
+        System.out.println("Задача 5");
+        int jar = 120;
+        int jarWhite = 2;
+        int jarBrown = 4;
+        int Class = jar / (jarWhite + jarBrown);
+        int white = Class * jarWhite;
+        int Brown = Class * jarBrown;
+        System.out.println("В школе, где " + Class + " классов, нужно " + white + " банок белой краски и " + Brown + " банок коричневой краски");
     }
 }
