@@ -24,7 +24,6 @@ public class Main {
         System.out.println("Значение переменной e с типом float равно " + e);
         System.out.println("Значение переменной f с типом double равно " + f);
     }
-
     public static void task2() {
         System.out.println("Задача 2");
         float a = 27.12f;
@@ -49,7 +48,7 @@ public class Main {
         int student3 = 30;
         int list = 480;
         int oneStudent;
-        oneStudent = 480 / (student1 + student2 + student3);
+        oneStudent = list / (student1 + student2 + student3);
         System.out.println("На каждого ученика рассчитано по " + oneStudent + " листов бумаги");
     }
     public static void task4() {
@@ -95,13 +94,15 @@ public class Main {
         int Weight = 7;
         float weight1 = 250 * 0.001f;
         float weight2 = 500 * 0.001f;
-        float averageWeight = (weight1 + weight2) / 2;
-        float averageDau = Weight / averageWeight;
+        float Dau250 = Weight / weight1;
+        float Dau500 = Weight / weight2;
+        float averageDau = (Dau250 + Dau500) / 2;
+        System.out.println("Количество дней для похудения при потере 250г составляет " + Dau250);
+        System.out.println("Количество дней для похудения при потере 500г составляет " + Dau500);
         System.out.println("Среднее количество дней для похудения составляет " + averageDau);
     }
     public static void task8() {
         System.out.println("Задача 8");
-
         int Salary1 = 67760;
         int Salary2 = 83690;
         int Salary3 = 76230;
@@ -112,9 +113,9 @@ public class Main {
         float difference1 = (SalarySum1 - Salary1) * 12;
         float difference2 = (SalarySum2 - Salary2) * 12;
         float difference3 = (SalarySum3 - Salary3) * 12;
-        System.out.println("Маша теперь получает " + SalarySum1 + " .Годовой доход вырос на " + difference1);
-        System.out.println("Денис теперь получает " + SalarySum2 + " .Годовой доход вырос на " + difference2);
-        System.out.println("Кристина теперь получает " + SalarySum3 + " .Годовой доход вырос на " + difference3);
+        System.out.println("Маша теперь получает " + SalarySum1 + ".Годовой доход вырос на " + difference1);
+        System.out.println("Денис теперь получает " + SalarySum2 + ".Годовой доход вырос на " + difference2);
+        System.out.println("Кристина теперь получает " + SalarySum3 + ".Годовой доход вырос на " + difference3);
     }
 
 
